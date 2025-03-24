@@ -1,0 +1,16 @@
+# prefix: /api/v1
+# server:
+#   port: 5000
+#   healthCheck: /_oneapi/healhtz/health
+#   docsPrefix: /_oneapi/docs
+
+#auth:
+#  bearer_token:
+#    token: such_secret
+
+entities:
+  people:
+    fields:
+      name: { type: string }
+      hair_color: { type: string }
+    
